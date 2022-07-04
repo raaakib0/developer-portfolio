@@ -22,11 +22,11 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(yellow,  orange);
+    background-image: linear-gradient(yellow, green);
     padding: 10px 40px;
     font-weight:700;
     color: white;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .banner{
     background-image: url(images/top-banner.png);
@@ -36,4 +36,28 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.third{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#h1exp{
+    margin-left: 20px;
+}
+.experience{
+    box-shadow: 10px 10px 10px 10px powderblue;
+    padding-left: 3%;
+    margin-left: 3%;
+    border-radius: 50px;
+    
+ }
+
+ #left{
+    border-left: 10px solid blue;
+ }
+#right{
+    border-left: 10px solid cornflowerblue;
+}
+.footer{
+    text-align: center;
 }
